@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    background-color: rgb(233, 215, 207);
+    color: rgb(83, 75, 75);
+    margin: 50px;
+}
+
+h1 {
+    font-family: 'tilt Prism', sans-serif;
+    font-size: 60px;
+}
+
+p {
+    font-family:'Titillium Web', sans-serif;
+    font-size: 24px;
+}
+
+a/*유형선택자*/ {
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(167, 1, 78);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/*가상 선택자: 다른 상태일 때의 요소 정의 가능. hover은 마우스가 앵커 위에 있을 때*/

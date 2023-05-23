@@ -1,0 +1,56 @@
+      /* 메타정보*/
+      /* body {
+        margin: 50px;
+      } */
+      /*모든 콘텐츠가 포함되는 곳 */
+
+      img{
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        border: black 5px solid;
+        display: inline-block;
+        margin: -129px 0 0 0;
+      }
+      /*빈요소라 text-align적용 불가-> 태그사이에 있는 텍스트에만 적용되므로
+      그러므로 바디(상위(부모)요소)를 중앙으로*/
+
+      main {
+        border: black 5px solid;
+        border-radius: 10px;
+        background-color: rgb(219, 149, 137);
+        box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.3);
+        width: 800px;
+        padding: 24px;
+        margin: 200px auto 72px auto;
+        color: black;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+
+      a {
+        color: red;
+      }
+
+      #today{
+        font-weight: bold;
+        font-size: 52px;
+      }
+      /*아이디로 개별 요소 지정. 하나에 하나만 가능*/
+      /* font size
+        - px: 기기별 픽셀로 측정: 고해상도 일수록 화면 픽셀이 더 많음
+          고해상도에서 더 크기가 작음. 이를 방지해주고 대상의 크기가 항상 같도록
+          조절해줌. 절대단위. 장치 해상도에만 영향을 받음.
+        - rem, %: 상대단위. 화면 너비 등과 같은 요소에 영향
+
+        - 글꼴: 글꼴정의에 연결 시 사용 가능. 다운로드 속도 문제가 있기 때문에 반드시 필요한 것만 확인
+          ''사이에 이름 반드시 작성
+        
+        - 폴백 폰트: 폰트 로딩에 실페할 때
+        */
+
+        span {
+          color:brown
+        }
